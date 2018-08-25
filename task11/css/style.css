@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.navTopBar-container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.navTopBar {
+    padding: 20px 16px 20px 16px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Arial Black';
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.logo > .rs {
+    margin-right: 4px;
+    color: #e6686a;
+}
+
+.logo > .card {
+    color: #9a9da2;
+}
+
+.navigator {
+    padding: 5px 0;
+}
+
+.navigator ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator ul li {
+    margin: 0 17px;
+}
+
+.navigator ul li a {
+    color: #b7b7b7;
+    font-size: 12px;
+    text-decoration: none;
+    border-top: 3px solid transparent;
+    border-top: 3px solid transparent;
+    padding:5px 0;
+    display: block;
+}
+
+.navigator ul li a:hover {
+    border-bottom: 3px solid #e06567;
+}
+
+.Banner {
+    height: 515px;
+    background-image: url('../img/rs-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.Banner .mask {
+    height: 515px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.user-card {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.user-card .picture-and-text {
+    padding: 50px;
+}
+
+.avatar {
+    width: 299px;
+    height: 347px;
+}
+
+.text {
+    margin-left: 65px;
+    width: 470px;
+}
+
+.text .hello {
+    display: inline-block;
+    background-color: #e6686a;
+    color: white;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.text .hello::before {
+    position: absolute;
+    content:'';
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #e6686a;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top-width: 0;
+    left: 4px;
+    top: 100%;
+}
+
+.text dt {
+    width: 30%;
+    float: left;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.text dd {
+    width: 70%;
+    margin: 0;
+    float: left;
+    padding: 5px 0;
+    color: #9da0a7;
+}
+
+
+.media {
+    background-color: #E6686A;
+}
+
+.media svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    vertical-align: top;
+}
+
+.media a {
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+
